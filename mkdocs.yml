@@ -1,6 +1,6 @@
 site_name: Water Quality Monitor
-site_url: https://example.com/
-repo_url: https://github.com/yourusername/tuya-water-monitor
+site_url: https://lukirch1984.github.io/gemini-tuya-water-monitor/
+repo_url: https://github.com/lukirch1984/gemini-tuya-water-monitor
 edit_uri: edit/main/docs/
 
 theme:
@@ -28,10 +28,10 @@ theme:
 extra:
   alternate:
     - name: English
-      link: /en/ 
+      link: ./en/ 
       lang: en
     - name: Deutsch
-      link: /de/
+      link: ./de/
       lang: de
 
 plugins:
