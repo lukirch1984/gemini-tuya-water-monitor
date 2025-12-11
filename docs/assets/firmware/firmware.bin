@@ -1,0 +1,8 @@
+PLACEHOLDER FOR FIRMWARE BINARY
+
+To use the Web Flasher:
+1. Compile the firmware using PlatformIO.
+2. Run `pio run --target=mergebin` (or manually merge bootloader, partitions, and app).
+   Alternatively, for simple updates, just the application binary might suffice if offsets are correct, but 0x0 requires a full merged image.
+3. Rename the output file to `firmware.bin`.
+4. Place it in this directory (`docs/assets/firmware/`).

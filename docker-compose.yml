@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    container_name: tuya_backend
+    ports:
+      - "8000:8000"
+    environment:
+      - INFLUXDB_URL=http://influxdb:8086
+      - INFLUXDB_ORG=my-org
+      - INFLUXDB_BUCKET=water_monitor
+      - INFLUXDB_TOKEN=my-super-secret-auth-token
+      # Add Tuya credentials here or in a .env file
+    depends_on:
+      - influxdb
+    restart: always
+
+  influxdb:
+    image: influxdb:2
+    container_name: tuya_influxdb
+    ports:
+      - "8086:8086"
+    environment:
+      - DOCKER_INFLUXDB_INIT_MODE=setup
+      - DOCKER_INFLUXDB_INIT_USERNAME=admin
+      - DOCKER_INFLUXDB_INIT_PASSWORD=adminpassword
+      - DOCKER_INFLUXDB_INIT_ORG=my-org
+      - DOCKER_INFLUXDB_INIT_BUCKET=water_monitor
+      - DOCKER_INFLUXDB_INIT_ADMIN_TOKEN=my-super-secret-auth-token
+    volumes:
+      - ./docker/influxdb-data:/var/lib/influxdb2
+    restart: always
+
+  grafana:
+    image: grafana/grafana
+    container_name: tuya_grafana
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./docker/grafana-data:/var/lib/grafana
+    depends_on:
+      - influxdb
+    restart: always

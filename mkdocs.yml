@@ -1,0 +1,54 @@
+site_name: Water Quality Monitor
+site_url: https://example.com/
+repo_url: https://github.com/yourusername/tuya-water-monitor
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  palette: 
+    - scheme: default
+      primary: teal
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: lime
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+
+extra:
+  alternate:
+    - name: English
+      link: /en/ 
+      lang: en
+    - name: Deutsch
+      link: /de/
+      lang: de
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: de
+          name: Deutsch
+          build: true
+
+nav:
+  - Home: index.md
+  - API: api.md
+  - Hardware: hardware.md
+  - Flasher: flasher.md
