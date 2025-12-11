@@ -49,6 +49,11 @@ plugins:
 
 nav:
   - Home: index.md
-  - API: api.md
-  - Hardware: hardware.md
-  - Flasher: flasher.md
+  - User Guide:
+    - Getting Started: user-guide/getting-started.md
+    - Architecture: user-guide/architecture.md
+    - Hardware: user-guide/hardware.md
+    - Configuration: user-guide/configuration.md
+  - API Reference: api-reference.md
+  - Development:
+    - Contribution Guide: development/contributing.md
