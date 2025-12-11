@@ -16,3 +16,7 @@ htmlcov/
 .idea/
 docker/influxdb-data/
 docker/grafana-data/
+
+.gemini/
+gha-creds-*.json
+GEMINI.md
