@@ -2,7 +2,26 @@
 
 The Tuya Water Quality Monitor is built on a modern, containerized architecture designed for reliability and separation of concerns.
 
-![Detailed Architecture](https://via.placeholder.com/800x600.png?text=Detailed+Component+Diagram)
+```mermaid
+graph LR
+    subgraph Your Network
+        subgraph Docker
+            B(Backend Service) -- Writes to --> C[InfluxDB];
+            C -- Queried by --> E[Grafana];
+            B -- Provides API --> D((API));
+        end
+        A[Tuya Device] -.->|UDP/TCP| B;
+        F[LILYGO T4] -- HTTP GET --> D;
+    end
+    
+    subgraph Internet
+      G[User Browser] -- Views --> E;
+    end
+
+    style B fill:#f9f,stroke:#333,stroke-width:2px;
+    style C fill:#ccf,stroke:#333,stroke-width:2px;
+    style E fill:#cfc,stroke:#333,stroke-width:2px;
+```
 
 ## Core Components
 

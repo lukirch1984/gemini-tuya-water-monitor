@@ -25,6 +25,11 @@ theme:
     - navigation.expand
     - content.code.copy
 
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.mermaid:
+      label: right
+
 extra:
   alternate:
     - name: English

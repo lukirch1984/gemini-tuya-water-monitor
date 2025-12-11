@@ -2,7 +2,14 @@
 
 This project provides a complete, self-hosted solution for monitoring water quality using common Tuya-compatible devices. It's designed to be robust, scalable, and easy to use, giving you full ownership and control over your data without relying on third-party cloud services.
 
-![Architecture Diagram](https://via.placeholder.com/800x400.png?text=High-Level+Architecture+Diagram)
+```mermaid
+graph TD
+    A[Tuya Water Monitor] -->|Local WiFi| B(Backend Service);
+    B --> C{InfluxDB};
+    B --> D[API];
+    C --> E[Grafana];
+    D --> F(LILYGO T4 Display);
+```
 
 ## The Problem
 Many IoT devices, especially affordable consumer-grade sensors, lock your data into proprietary apps and cloud platforms. This limits your ability to create custom dashboards, trigger complex automations, or ensure long-term data retention.
