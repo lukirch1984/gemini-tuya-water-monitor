@@ -8,11 +8,46 @@
         <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/"/>
     </url>
     <url>
-        <loc>https://example.com/flasher/</loc>
+        <loc>https://example.com/api-reference/</loc>
         <lastmod>2025-12-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/flasher/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/flasher/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/api-reference/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/api-reference/"/>
+    </url>
+    <url>
+        <loc>https://example.com/development/contributing/</loc>
+        <lastmod>2025-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/development/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/development/contributing/"/>
+    </url>
+    <url>
+        <loc>https://example.com/user-guide/architecture/</loc>
+        <lastmod>2025-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/user-guide/architecture/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/user-guide/architecture/"/>
+    </url>
+    <url>
+        <loc>https://example.com/user-guide/configuration/</loc>
+        <lastmod>2025-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/user-guide/configuration/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/user-guide/configuration/"/>
+    </url>
+    <url>
+        <loc>https://example.com/user-guide/getting-started/</loc>
+        <lastmod>2025-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/user-guide/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/user-guide/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://example.com/user-guide/hardware/</loc>
+        <lastmod>2025-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/user-guide/hardware/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/user-guide/hardware/"/>
     </url>
     <url>
         <loc>https://example.com/de/</loc>
@@ -22,10 +57,45 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://example.com/"/>
     </url>
     <url>
-        <loc>https://example.com/de/flasher/</loc>
+        <loc>https://example.com/de/api-reference/</loc>
         <lastmod>2025-12-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/flasher/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/flasher/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/api-reference/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/api-reference/"/>
+    </url>
+    <url>
+        <loc>https://example.com/de/development/contributing/</loc>
+        <lastmod>2025-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/development/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/development/contributing/"/>
+    </url>
+    <url>
+        <loc>https://example.com/de/user-guide/architecture/</loc>
+        <lastmod>2025-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/user-guide/architecture/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/user-guide/architecture/"/>
+    </url>
+    <url>
+        <loc>https://example.com/de/user-guide/configuration/</loc>
+        <lastmod>2025-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/user-guide/configuration/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/user-guide/configuration/"/>
+    </url>
+    <url>
+        <loc>https://example.com/de/user-guide/getting-started/</loc>
+        <lastmod>2025-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/user-guide/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/user-guide/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://example.com/de/user-guide/hardware/</loc>
+        <lastmod>2025-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/user-guide/hardware/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/user-guide/hardware/"/>
     </url>
 </urlset>
