@@ -1,101 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-        <loc>https://example.com/</loc>
+        <loc>https://lukirch1984.github.io/gemini-tuya-water-monitor/</loc>
         <lastmod>2025-12-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://lukirch1984.github.io/gemini-tuya-water-monitor/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://lukirch1984.github.io/gemini-tuya-water-monitor/de/"/>
     </url>
     <url>
-        <loc>https://example.com/api-reference/</loc>
+        <loc>https://lukirch1984.github.io/gemini-tuya-water-monitor/api-reference/</loc>
         <lastmod>2025-12-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/api-reference/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/api-reference/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://lukirch1984.github.io/gemini-tuya-water-monitor/api-reference/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://lukirch1984.github.io/gemini-tuya-water-monitor/de/api-reference/"/>
     </url>
     <url>
-        <loc>https://example.com/development/contributing/</loc>
+        <loc>https://lukirch1984.github.io/gemini-tuya-water-monitor/development/contributing/</loc>
         <lastmod>2025-12-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/development/contributing/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/development/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://lukirch1984.github.io/gemini-tuya-water-monitor/development/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://lukirch1984.github.io/gemini-tuya-water-monitor/de/development/contributing/"/>
     </url>
     <url>
-        <loc>https://example.com/user-guide/architecture/</loc>
+        <loc>https://lukirch1984.github.io/gemini-tuya-water-monitor/user-guide/architecture/</loc>
         <lastmod>2025-12-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/user-guide/architecture/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/user-guide/architecture/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://lukirch1984.github.io/gemini-tuya-water-monitor/user-guide/architecture/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://lukirch1984.github.io/gemini-tuya-water-monitor/de/user-guide/architecture/"/>
     </url>
     <url>
-        <loc>https://example.com/user-guide/configuration/</loc>
+        <loc>https://lukirch1984.github.io/gemini-tuya-water-monitor/user-guide/configuration/</loc>
         <lastmod>2025-12-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/user-guide/configuration/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/user-guide/configuration/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://lukirch1984.github.io/gemini-tuya-water-monitor/user-guide/configuration/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://lukirch1984.github.io/gemini-tuya-water-monitor/de/user-guide/configuration/"/>
     </url>
     <url>
-        <loc>https://example.com/user-guide/getting-started/</loc>
+        <loc>https://lukirch1984.github.io/gemini-tuya-water-monitor/user-guide/getting-started/</loc>
         <lastmod>2025-12-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/user-guide/getting-started/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/user-guide/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://lukirch1984.github.io/gemini-tuya-water-monitor/user-guide/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://lukirch1984.github.io/gemini-tuya-water-monitor/de/user-guide/getting-started/"/>
     </url>
     <url>
-        <loc>https://example.com/user-guide/hardware/</loc>
+        <loc>https://lukirch1984.github.io/gemini-tuya-water-monitor/user-guide/hardware/</loc>
         <lastmod>2025-12-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/user-guide/hardware/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/user-guide/hardware/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://lukirch1984.github.io/gemini-tuya-water-monitor/user-guide/hardware/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://lukirch1984.github.io/gemini-tuya-water-monitor/de/user-guide/hardware/"/>
     </url>
     <url>
-        <loc>https://example.com/de/</loc>
+        <loc>https://lukirch1984.github.io/gemini-tuya-water-monitor/de/</loc>
         <lastmod>2025-12-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://lukirch1984.github.io/gemini-tuya-water-monitor/de/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://lukirch1984.github.io/gemini-tuya-water-monitor/"/>
     </url>
     <url>
-        <loc>https://example.com/de/api-reference/</loc>
+        <loc>https://lukirch1984.github.io/gemini-tuya-water-monitor/de/api-reference/</loc>
         <lastmod>2025-12-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/api-reference/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/api-reference/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://lukirch1984.github.io/gemini-tuya-water-monitor/de/api-reference/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://lukirch1984.github.io/gemini-tuya-water-monitor/api-reference/"/>
     </url>
     <url>
-        <loc>https://example.com/de/development/contributing/</loc>
+        <loc>https://lukirch1984.github.io/gemini-tuya-water-monitor/de/development/contributing/</loc>
         <lastmod>2025-12-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/development/contributing/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/development/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://lukirch1984.github.io/gemini-tuya-water-monitor/de/development/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://lukirch1984.github.io/gemini-tuya-water-monitor/development/contributing/"/>
     </url>
     <url>
-        <loc>https://example.com/de/user-guide/architecture/</loc>
+        <loc>https://lukirch1984.github.io/gemini-tuya-water-monitor/de/user-guide/architecture/</loc>
         <lastmod>2025-12-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/user-guide/architecture/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/user-guide/architecture/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://lukirch1984.github.io/gemini-tuya-water-monitor/de/user-guide/architecture/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://lukirch1984.github.io/gemini-tuya-water-monitor/user-guide/architecture/"/>
     </url>
     <url>
-        <loc>https://example.com/de/user-guide/configuration/</loc>
+        <loc>https://lukirch1984.github.io/gemini-tuya-water-monitor/de/user-guide/configuration/</loc>
         <lastmod>2025-12-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/user-guide/configuration/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/user-guide/configuration/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://lukirch1984.github.io/gemini-tuya-water-monitor/de/user-guide/configuration/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://lukirch1984.github.io/gemini-tuya-water-monitor/user-guide/configuration/"/>
     </url>
     <url>
-        <loc>https://example.com/de/user-guide/getting-started/</loc>
+        <loc>https://lukirch1984.github.io/gemini-tuya-water-monitor/de/user-guide/getting-started/</loc>
         <lastmod>2025-12-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/user-guide/getting-started/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/user-guide/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://lukirch1984.github.io/gemini-tuya-water-monitor/de/user-guide/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://lukirch1984.github.io/gemini-tuya-water-monitor/user-guide/getting-started/"/>
     </url>
     <url>
-        <loc>https://example.com/de/user-guide/hardware/</loc>
+        <loc>https://lukirch1984.github.io/gemini-tuya-water-monitor/de/user-guide/hardware/</loc>
         <lastmod>2025-12-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/user-guide/hardware/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://example.com/user-guide/hardware/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://lukirch1984.github.io/gemini-tuya-water-monitor/de/user-guide/hardware/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://lukirch1984.github.io/gemini-tuya-water-monitor/user-guide/hardware/"/>
     </url>
 </urlset>
