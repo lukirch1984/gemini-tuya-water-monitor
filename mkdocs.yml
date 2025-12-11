@@ -59,6 +59,7 @@ nav:
     - Architecture: user-guide/architecture.md
     - Hardware: user-guide/hardware.md
     - Configuration: user-guide/configuration.md
+  - Flasher: flasher.md
   - API Reference: api-reference.md
   - Development:
     - Contribution Guide: development/contributing.md

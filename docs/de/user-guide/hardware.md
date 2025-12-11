@@ -2,37 +2,15 @@
 
 Dieses Projekt enthält eine dedizierte Firmware für das LILYGO T4 (ein ESP32 mit integriertem Display), um als eigenständiger Echtzeit-Monitor für Ihre Wasserqualitätsdaten zu fungieren.
 
-## Merkmale
-*   Verbindet sich mit Ihrem lokalen WLAN.
-*   Ruft regelmäßig die neuesten Sensordaten von der Backend-API ab.
-*   Zeigt Werte auf dem Bildschirm an.
-*   Geringer Stromverbrauch.
-
 ## Flashen der Firmware
 
-Es gibt zwei Möglichkeiten, die Firmware auf Ihr Gerät zu bringen.
+Wir bieten zwei Methoden an, um die Firmware auf Ihr Gerät zu bekommen. Für die einfachste Methode besuchen Sie bitte unsere dedizierte Web-Flasher-Anleitung. Wenn Sie ein Entwickler sind und den Code selbst kompilieren möchten, folgen Sie den manuellen PlatformIO-Anweisungen unten.
 
-### Methode 1: Web-Flasher (Empfohlen)
+[➡️ Zur Web-Flasher-Anleitung wechseln](../flasher.md)
 
-Sie können das Gerät direkt von Ihrem Browser aus flashen, ohne Entwicklungstools installieren zu müssen.
+---
 
-<div style="text-align: center; padding: 20px; border: 1px solid #444; border-radius: 8px; background: #222;">
-    <h3>LILYGO T4 via USB verbinden</h3>
-    <p>Stellen Sie sicher, dass keine andere Software (wie Cura oder VS Code) den Port blockiert.</p>
-    <esp-web-install-button manifest="../../assets/firmware/manifest.json"></esp-web-install-button>
-</div>
-
-#### Anleitung
-1.  **Binary vorbereiten**: Bevor der Flasher verwendet werden kann, muss der Projektbetreuer die Firmware kompiliert und die Datei `firmware.bin` am richtigen Ort (`docs/assets/firmware/`) platziert haben.
-2.  **Gerät verbinden**: Stecken Sie Ihr LILYGO T4 über USB an Ihren Computer an.
-3.  **Auf "Install" klicken**: Drücken Sie die "Install"-Schaltfläche oben. Ein Popup wird erscheinen.
-4.  **Port auswählen**: Wählen Sie den seriellen Port, der Ihrem Gerät entspricht, und klicken Sie auf "Verbinden".
-5.  Der Flash-Vorgang beginnt automatisch.
-
-*Dieses Tool erfordert einen modernen Browser wie Chrome, Edge oder Opera, der Web Serial unterstützt.*
-
-
-### Methode 2: Manuelles Flashen mit PlatformIO
+### Manuelles Flashen mit PlatformIO
 
 Wenn Sie die Firmware ändern oder selbst kompilieren möchten, müssen Sie PlatformIO verwenden.
 

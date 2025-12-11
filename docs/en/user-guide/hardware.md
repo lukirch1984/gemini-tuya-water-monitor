@@ -2,37 +2,15 @@
 
 This project includes dedicated firmware for the LILYGO T4 (an ESP32 with an integrated display) to act as a real-time, standalone monitor for your water quality data.
 
-## Features
-*   Connects to your local WiFi.
-*   Periodically fetches the latest sensor data from the backend API.
-*   Displays values on the screen.
-*   Low power consumption.
-
 ## Flashing the Firmware
 
-There are two ways to get the firmware onto your device.
+We provide two methods for getting the firmware onto your device. For the easiest method, please see our dedicated Web Flasher guide. If you are a developer and wish to compile the code yourself, follow the manual PlatformIO instructions below.
 
-### Method 1: Web Flasher (Recommended)
+[➡️ Go to the Web Flasher Guide](../flasher.md)
 
-You can flash the device directly from your browser without needing to install any development tools.
+---
 
-<div style="text-align: center; padding: 20px; border: 1px solid #444; border-radius: 8px; background: #222;">
-    <h3>Connect LILYGO T4 via USB</h3>
-    <p>Ensure no other software (like Cura, VS Code Serial Monitor) is using the port.</p>
-    <esp-web-install-button manifest="../../assets/firmware/manifest.json"></esp-web-install-button>
-</div>
-
-#### Instructions
-1.  **Prepare the binary**: Before the flasher can be used, the project maintainer must have compiled the firmware and placed the `firmware.bin` file in the correct location (`docs/assets/firmware/`).
-2.  **Connect your device**: Plug your LILYGO T4 into your computer via USB.
-3.  **Click Install**: Press the "Install" button above. A popup will appear.
-4.  **Select the port**: Choose the serial port corresponding to your device and click "Connect".
-5.  The flashing process will begin automatically.
-
-*This tool requires a modern browser like Chrome, Edge, or Opera that supports Web Serial.*
-
-
-### Method 2: Manual Flashing with PlatformIO
+### Manual Flashing with PlatformIO
 
 If you want to modify the firmware or compile it yourself, you'll need to use PlatformIO.
 
